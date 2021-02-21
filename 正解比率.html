@@ -1,0 +1,36 @@
+
+<!DOCTYPE html>
+ <html lang="en">
+ <html lang="ja">
+    <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+     <title>Document</title>
+     <title>正解比率</title>
+     <style>
+         h2{
+             color:rgb(0, 255, 0);
+             background-color:rgb(255, 127, 127);
+             font-size:32px;
+             padding:16px;
+         }
+         img{
+             width:900px;
+             height:500px;
+             border:8px solid rgb(4, 0, 255);
+         }
+     </style>
+   <script>
+      alert('正解比率確認');
+      var input = prompt("インプット時間は何分？");
+      var output = prompt("アウトプット時間は何分？");
+      document.write("インプット時間 = " + input + ":  アウトプット時間 = " + output + "<br />");
+      document.write('正解比率は'+ input*((input+output)/100) + '：' + output*((input+output)/100) +'でした' + "<br />");
+     </script>
+   </head>
+    <body>
+         <h2>～正解率～</h2>
+         <p>
+            「敷地の面積と、建物の延べ面積（全フロアの合計面積）の割合」のこと。
+          正解比率の計算は<a href="yousekiritsu.html">こちら</a>!!
+            <img src="yousekiritsu.jpg" alt="正解比率"/>
